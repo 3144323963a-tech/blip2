@@ -1,0 +1,58 @@
+{
+  "cli_version": "0.6.2",
+  "checkpoint_id": "547c61c8e4a6",
+  "session_id": "a1ed9ac8-eb2d-4516-8fe0-bfe061595cdd",
+  "strategy": "manual-commit",
+  "created_at": "2026-05-24T11:12:26.5399257Z",
+  "branch": "master",
+  "checkpoints_count": 1,
+  "files_touched": [],
+  "agent": "Claude Code",
+  "model": "deepseek-v4-pro",
+  "turn_id": "ab64ae22ba3a",
+  "token_usage": {
+    "input_tokens": 33620,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 374400,
+    "output_tokens": 7502,
+    "api_call_count": 13
+  },
+  "session_metrics": {
+    "turn_count": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 239330,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/agents/entire-search.md": 25,
+        ".claude/settings.json": 84,
+        ".gitignore": 46,
+        "blip2-main/blip2-main/.gitignore": 1,
+        "blip2-main/blip2-main/README.md": 30,
+        "blip2-main/blip2-main/data/captions.txt": 40456,
+        "blip2-main/blip2-main/index.html": 502,
+        "blip2-main/blip2-main/models/clip-vit-base-patch32/config.json": 157,
+        "blip2-main/blip2-main/models/clip-vit-base-patch32/merges.txt": 48895,
+        "blip2-main/blip2-main/models/clip-vit-base-patch32/preprocessor_config.json": 19,
+        "blip2-main/blip2-main/models/clip-vit-base-patch32/special_tokens_map.json": 1,
+        "blip2-main/blip2-main/models/clip-vit-base-patch32/tokenizer.json": 98393,
+        "blip2-main/blip2-main/models/clip-vit-base-patch32/tokenizer_config.json": 1,
+        "blip2-main/blip2-main/models/clip-vit-base-patch32/vocab.json": 1,
+        "blip2-main/blip2-main/models/opt-125m/config.json": 28,
+        "blip2-main/blip2-main/models/opt-125m/generation_config.json": 7,
+        "blip2-main/blip2-main/models/opt-125m/merges.txt": 50001,
+        "blip2-main/blip2-main/models/opt-125m/special_tokens_map.json": 1,
+        "blip2-main/blip2-main/models/opt-125m/tokenizer_config.json": 1,
+        "blip2-main/blip2-main/models/opt-125m/vocab.json": 1,
+        "blip2-main/blip2-main/report/report_template.md": 200,
+        "blip2-main/blip2-main/requirements.md": 197,
+        "blip2-main/blip2-main/test_images/results.html": 157,
+        "blip2-main/blip2-main/test_images/test_results.html": 126
+      }
+    }
+  ]
+}
